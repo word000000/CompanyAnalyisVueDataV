@@ -1,18 +1,11 @@
 <template>
-
-    <dv-border-box-11 title="单个公司">
-      <dv-loading >Loading...</dv-loading>
-      <div  class="body">
-        <div class="item">
-          <dv-active-ring-chart :config="config1" style="width:200px;height:200px" />
-        </div>
-      </div>
-    </dv-border-box-11>
 </template>
 
 <script>
+    import RadarMap from "./RadarMap";
     export default {
       name: "OneCompany",
+      components: {RadarMap},
       title: {
         text: '剩余油量表',
         style: {

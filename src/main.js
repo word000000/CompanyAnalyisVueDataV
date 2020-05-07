@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import dataV from '@jiaminghi/data-view'
+import echarts from 'echarts'
 
+
+Vue.prototype.$echarts = echarts
 Vue.use(dataV)
 Vue.config.productionTip = false
 

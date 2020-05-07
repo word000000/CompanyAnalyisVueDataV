@@ -1,11 +1,11 @@
 <template>
   <div id="top-header">
-    <dv-decoration-8 style="width:350px;height:55px;" />
+    <dv-decoration-8 style="width:350px;height:45px;" />
     <div id="top-Name">
-      <div style="font-size: 30px;">多公司对比</div>
+      <div style="font-size: 25px;">多公司对比</div>
       <dv-decoration-5 style="width:550px;height:20px;"></dv-decoration-5>
     </div>
-    <dv-decoration-8 style="width:350px;height:55px;" :reverse="true"/>
+    <dv-decoration-8 style="width:350px;height:45px;" :reverse="true"/>
   </div>
 </template>
 
