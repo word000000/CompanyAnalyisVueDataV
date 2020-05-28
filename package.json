@@ -10,8 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@jiaminghi/charts": "^0.2.15",
     "@jiaminghi/data-view": "^2.8.3",
     "echarts": "^4.7.0",
+    "element-ui": "^2.13.2",
+    "i": "^0.3.6",
+    "npm": "^6.14.5",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

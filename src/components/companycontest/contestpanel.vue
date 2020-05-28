@@ -1,13 +1,13 @@
 <template>
-  <div id="manyCompany">
+  <div id="companycontest">
     <dv-full-screen-container >
       <top-header style="height: 50px"/>
       <dv-border-box-1 class="main-container">
         <div class="main-content">
-          <scroll-board style="flex: 45"/>
+          <scroll-board style="flex:45;height: 97%"/>
           <div style="margin-right:20px;margin-top:20px;height: 100%;weight:100%;display: flex;flex-direction: column ;flex: 55">
-            <RadarMap style="height: 100%;width: 100%"/>
-            <ScrollRankBoard style="height: 100%;width: 100%;margin-bottom: 20px"/>
+            <RadarMap style="height: 40%;width: 100%"/>
+            <ScrollRankBoard style="height: 55%;width: 100%;margin-bottom: 20px"/>
           </div>
         </div>
       </dv-border-box-1>
@@ -16,11 +16,10 @@
 </template>
 
 <script>
-    import TopHeader from "./topHeader";
-    import ScrollBoard from "./ScrollBoard";
-    import RadarMap from "./RadarMap";
-    import ScrollRankBoard from "./ScrollRankBoard";
-
+    import TopHeader from "./topheader";
+    import ScrollBoard from "./scrollboard";
+    import RadarMap from "./radarmap";
+    import ScrollRankBoard from "./scrollrankboard";
 
     export default {
       name: 'ManyCompany',
@@ -34,14 +33,14 @@
 </script>
 
 <style>
-  #manyCompany {
+  #companycontest {
     width: 100%;
     height: 100%;
     background-color: #030409;
     color: #fff;
   }
   #dv-full-screen-container {
-    background-image: url('./img/bg.png');
+    background-image: url('../img/bg.png');
     background-size: 100%;
     box-shadow: 0 0 3px blue;
     display: flex;

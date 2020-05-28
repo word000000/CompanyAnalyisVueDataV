@@ -1,11 +1,15 @@
 <template>
   <div id="top-header">
-    <dv-decoration-8 style="width:350px;height:45px;" />
+    <dv-decoration-8 style="width:280px;height:45px;" />
+    <div @click="$router.push('/')">
+      <dv-decoration-7 style="width:120px;height:45px;">返回首页</dv-decoration-7>
+    </div>
     <div id="top-Name">
-      <div style="font-size: 25px;">多公司对比</div>
+      <div style="font-size: 25px;">企业对比</div>
       <dv-decoration-5 style="width:550px;height:20px;"></dv-decoration-5>
     </div>
-    <dv-decoration-8 style="width:350px;height:45px;" :reverse="true"/>
+    <div style="width:120px;height:45px;"></div>
+    <dv-decoration-8 style="width:280px;height:45px;" :reverse="true"/>
   </div>
 </template>
 
